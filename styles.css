@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin-left: 40px;
+}
+
+h1{
+    color:#6C63FF;
+    margin-left: 25px;
+    font-size: 45px;
+    margin-top: 210px;
+}
+
+section{
+    display: flex;
+    
+}
+
+p{
+    padding: 20px 37px;
+    margin-left: 17px;
+    color: #C8C8C8;
+}
+
+h2{
+    font-size: 14px;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 38px;
+    color: #C8C8C8;
+}
+
+
+.caixa-numeros{
+    font-size: 71px;
+    margin-left: 35px;
+   
+}
+
+button{
+   width: 145px;
+   height: 35px; 
+   border: none;
+   border-radius: 8px;
+   color:#fff;
+   background: #6C63FF;
+   cursor: pointer;
+   margin-left: 205px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+.img-fgt{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 750px;
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        margin-left: 0px;
+        padding: 10px 0px;
+        
+    }
+
+    .img-fgt{
+       
+        margin-left: 27px;
+       
+        margin-top: 420px ;
+    }
+   
+    img{
+        width: 340px;
+        margin-left: 10px;
+
+        
+    }
+
+    p{
+        margin-left: 25px;
+        padding: 20px 10px;
+
+
+    }
+
+    #day{
+        margin-left: 18px;
+    }
+
+    #hrs{
+        margin-left: 33px;
+    }
+
+    #min{
+        margin-left: 28px;
+    }
+    #secnts{
+        margin-left: 15px;
+    }
+
+
+    button{
+       
+        margin-left: 134px;
+        margin-top: 0px;
+    }
+
+    h1{
+        font-size: 25px;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    h2{
+        margin-left: 15px;
+        margin-top: 420px;
+    }
+
+    .caixa-numeros{
+        font-size: 50px;
+        margin-left: 30px;
+        
+    
+    }
+}
